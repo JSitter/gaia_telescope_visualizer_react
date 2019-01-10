@@ -1,0 +1,29 @@
+{
+  "name": "Bookmark",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_notes": {
+      "type": "string"
+    },
+    "user_object_name": {
+      "type": "string",
+      "default": "body_id"
+    },
+    "body_id": {
+      "type": "number",
+      "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
