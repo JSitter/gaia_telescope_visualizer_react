@@ -4,7 +4,7 @@
     "port": 5432,
     "url": "",
     "database": "gaia",
-    "password": "k",
+    "password": "",
     "name": "db",
     "user": "justin",
     "connector": "postgresql"
