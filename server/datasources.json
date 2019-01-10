@@ -6,7 +6,7 @@
     "database": "gaia",
     "password": "",
     "name": "db",
-    "user": "justin",
+    "user": "yourUser",
     "connector": "postgresql"
   }
 }
